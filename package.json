@@ -1,0 +1,27 @@
+{
+  "name": "cron-check",
+  "version": "1.0.0",
+  "description": "Check if a datetime is matching cron",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phaelmoita/cron-check"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "Raphael Oliveira (phaelmoita)",
+  "license": "MIT",
+  "dependencies": {
+    "cron-parser": "^4.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34"
+  },
+  "keywords": [
+    "cron",
+    "crontab"
+  ]
+}
